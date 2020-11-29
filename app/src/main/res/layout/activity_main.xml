@@ -6,13 +6,104 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mainLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
 
+            <TextView
+                android:id="@+id/turn_id"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="X" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/button_id0"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:onClick="buttonOnClick"
+                android:textColor="@android:color/white"
+                android:text="" />
+            <Button
+                android:id="@+id/button_id1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:onClick="buttonOnClick"
+                android:textColor="@android:color/white"
+                android:text="" />
+            <Button
+                android:id="@+id/button_id2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:onClick="buttonOnClick"
+                android:textColor="@android:color/white"
+                android:text="" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/button_id3"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:onClick="buttonOnClick"
+                android:textColor="@android:color/white"
+                android:text="" />
+            <Button
+                android:id="@+id/button_id4"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:onClick="buttonOnClick"
+                android:textColor="@android:color/white"
+                android:text="" />
+            <Button
+                android:id="@+id/button_id5"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:onClick="buttonOnClick"
+                android:textColor="@android:color/white"
+                android:text="" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/button_id6"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:onClick="buttonOnClick"
+                android:textColor="@android:color/white"
+                android:text="" />
+            <Button
+                android:id="@+id/button_id7"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:onClick="buttonOnClick"
+                android:textColor="@android:color/white"
+                android:text="" />
+            <Button
+                android:id="@+id/button_id8"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:onClick="buttonOnClick"
+                android:textColor="@android:color/white"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
